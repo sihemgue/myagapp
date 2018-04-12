@@ -241,7 +241,7 @@ module.exports = ""
 /***/ "./src/app/mail-protector/mail-protector.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  mail-protector works!\n</p>\n"
+module.exports = ""
 
 /***/ }),
 
@@ -291,7 +291,7 @@ module.exports = ""
 /***/ "./src/app/menu/menu.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\n  <div class=\"container\">\n    <a class=\"navbar-brand\" href=\"#\">Start </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n      <ul class=\"navbar-nav ml-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\" routerLink]=\"['']\">Home\n            <span class=\"sr-only\">(current)</span>\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\" routerLink=\"uppercase\">Uppercase</a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\" routerLink=\"contact\">Contact</a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\n  <div class=\"container\">\n    <a class=\"navbar-brand\" href=\"#\">Start </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n      <ul class=\"navbar-nav ml-auto\">\n        <li class=\"nav-item\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{exact:true}\">\n          <a class=\"nav-link\" href=\"#\" routerLink=\"\">Home\n            <span class=\"sr-only\">(current)</span>\n          </a>\n        </li>\n        <li class=\"nav-item\"  routerLinkActive=\"active\" >\n          <a class=\"nav-link\" href=\"#\" routerLink=\"uppercase\">uppercase</a>\n        </li>\n        <li class=\"nav-item\"  routerLinkActive=\"active\">\n          <a class=\"nav-link\" href=\"#\" routerLink=\"contact\">Contact</a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n\n"
 
 /***/ }),
 
